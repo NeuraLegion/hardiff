@@ -1,0 +1,17 @@
+name: hardiff
+version: 0.1.0
+
+authors:
+  - Bar Hofesh <bar.hofesh@gmail.com>
+
+targets:
+  hardiff:
+    main: src/hardiff.cr
+
+dependencies:
+  har:
+    github: NeuraLegion/har
+
+crystal: 1.8.1
+
+license: MIT
